@@ -283,7 +283,7 @@ function library.new(library, name, theme)
         Side.Size = UDim2.new(0, 110, 0, 353)
         SideG.Color =
                 ColorSequence.new({ ColorSequenceKeypoint.new(0.00, config.Zy_Color), ColorSequenceKeypoint.new(1.00, config.Zy_Color) })
-        SideG.Rotation = 90
+        SideG.Rotation = 100
         SideG.Name = "SideG"
         SideG.Parent = Side
         TabBtns.Name = "TabBtns"
@@ -395,7 +395,7 @@ function library.new(library, name, theme)
         -- coroutine.wrap(NPLHKB_fake_script)()
         SBG.Color =
                 ColorSequence.new({ ColorSequenceKeypoint.new(0.00, config.Zy_Color), ColorSequenceKeypoint.new(1.00, config.Zy_Color) })
-        SBG.Rotation = 90
+        SBG.Rotation = 100
         SBG.Name = "SBG"
         SBG.Parent = SB
         TabBtnsL:GetPropertyChangedSignal("AbsoluteContentSize"):Connect(function()
